@@ -1,0 +1,16 @@
+<div class="nav">
+    <h1>Ellumia the age of crisis</h1>
+    <div>
+        <% for (let [url, route] of Object.entries(routes)) {
+        let className = "link"
+        if (route.title == curPage.title) {
+            className += " link-active"
+        }
+        if (route.customClasses) {
+            className += ` ${route.customClasses}`
+        }
+        %>
+        <a class="<%= className %> <%= route.fileName %>" href="<%= url %>"><%= route.title %></a>
+        <% } %>
+    </div>
+</div>
