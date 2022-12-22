@@ -17,7 +17,7 @@ body {
 .nav {
     top: 0;
     height: 100vh;
-    width: 250px;
+    width: 450px;
     background-color: var(--nav-main-color);
     flex-shrink: 0;
     float: left;
@@ -28,14 +28,14 @@ body {
 
 
 .nav h1 {
-    font-size: 30px;
+    font-size: 60px;
     padding-top: 5px;
     padding-left: 30px;
     padding-bottom: 1px;
 }
 
 .nav h2 {
-    font-size: 20px;
+    font-size: 45px;
     padding-left: 30px;
     padding-bottom: 3px;
 }
@@ -44,7 +44,7 @@ body {
     margin-left: 0;
     display: block;
     width: auto;
-    font-size: 22px;
+    font-size: 50px;
     font-weight: 500;
     padding: 7px 20px;
     color: var(--text-color);
@@ -95,4 +95,22 @@ body {
 
 li {
     margin-bottom: 20px;
+}
+.page-head-text{
+    width: 1470px;
+}
+
+.page-head-text p{
+    font-size: 50px;
+    vertical-align: bottom;
+}
+
+.pathway-option-list{
+    display: inline-block;
+}
+
+.pathway-option{
+    width: 300px;
+    height: 300px;
+    padding: 135px;
 }
