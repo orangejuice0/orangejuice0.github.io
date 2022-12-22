@@ -10,14 +10,13 @@ body {
 
 .content {
     margin: 20px;
-    max-width: 900px;
     color: var(--text-color);
 }
 
 .nav {
     top: 0;
     height: 100vh;
-    width: 450px;
+    width: 250px;
     background-color: var(--nav-main-color);
     flex-shrink: 0;
     float: left;
@@ -28,14 +27,14 @@ body {
 
 
 .nav h1 {
-    font-size: 60px;
+    font-size: 30px;
     padding-top: 5px;
     padding-left: 30px;
     padding-bottom: 1px;
 }
 
 .nav h2 {
-    font-size: 45px;
+    font-size: 20px;
     padding-left: 30px;
     padding-bottom: 3px;
 }
@@ -44,7 +43,7 @@ body {
     margin-left: 0;
     display: block;
     width: auto;
-    font-size: 50px;
+    font-size: 22px;
     font-weight: 500;
     padding: 7px 20px;
     color: var(--text-color);
@@ -97,20 +96,72 @@ li {
     margin-bottom: 20px;
 }
 .page-head-text{
-    width: 1470px;
+    width: 100%;
 }
 
 .page-head-text p{
-    font-size: 50px;
+    font-size: 30px;
     vertical-align: bottom;
+    text-align: center;
+    font-weight: 400;
 }
 
 .pathway-option-list{
-    display: inline-block;
 }
 
 .pathway-option{
-    width: 300px;
-    height: 300px;
-    padding: 135px;
+    width: 100%;
+    height: 100%;
 }
+
+.div-table {
+    display: table;         
+    width: auto;                     
+    border-spacing: 50px;
+    margin-left: 10%;
+  }
+  .div-table-row {
+    display: table-row;
+    width: auto;
+    height: 300px;
+    clear: both;
+    
+  }
+  .div-table-col {
+    float: left;
+    display: table-column;         
+    width: 300px;         
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+  }
+
+  .pathway-option-icon{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+
+  .pathway-option-text{
+    font-size: 40px;
+    text-align: center;
+    vertical-align: top;
+    margin: 1%;
+  }
+
+  a:link{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: black;
+  }
