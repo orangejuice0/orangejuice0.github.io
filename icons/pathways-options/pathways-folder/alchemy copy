@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+    <title>Ellumia | Pathways | </title>
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <h1>Ellumia</h1>
+        <h2>The Age Of Crisis</h2>
+        <div>
+            <a class="link index" href="/">Home</a>
+            <a class="link link-active pathways" href="pathways">Pathways</a>
+            <a class="link spells" href="spells">Spells</a>
+            <a class="link gods" href="gods">Gods</a>
+            <a class="link weapons" href="weapons">Weapons</a>
+            <a class="link equipment" href="equipment">Equipment</a>
+            <a class="link adventurersinfo" href="adventurersinfo">Adventurers Info</a>
+        </div>
+        
+    </div>
+    <div class="page">
+        <div class="content">
+            <div class="pathway-tree-three">
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+            </div>
+            <div class="pathway-tree-three">
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+            </div>
+            <div class="pathway-tree-three">
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+                <p class="pathway-bold"></p>
+                <p class="pathway-tree-text"><p>
+            </div>
+            <div class="pathway-tree-ultimate">
+                <p class="pathway-ultimate-bold"></p>
+                <p class="pathway-ultimate-text"><p>
+            </div>
+        </div>
+    </div>
+</body>
