@@ -172,10 +172,15 @@ li {
     width: 20%;
     margin-left: 5%;
     margin-right: 5%;
+    height: 750px;
+    vertical-align: middle;
+  }
+
+  .pathway-tree-content{
     border: 2px solid #000000;
     border-radius: 5px;
-    height: 650px;
-    vertical-align: middle;
+    width: 100%;
+    height: 90%;
   }
 
   .pathway-bold{
@@ -209,7 +214,6 @@ li {
   .pathway-ultimate-text{
     margin-top: 1%;
     text-align: center;
-    font-size: 18px;
   }
 
   .pathway-title{
@@ -228,4 +232,32 @@ li {
   .pathway-tree-title{
     font-size: 30px;
     text-align: center;
+  }
+
+  @media all and (max-width: 1700px) {
+    .content{
+      display: block;
+      flex-wrap: nowrap;
+    }
+
+    .pathway-tree-alchemy{
+      width: 90%;
+      height: 550px;
+    }
+
+    .pathway-tree-title-div{
+      width: 90%;
+    }
+    .pathway-tree-ultimate{
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+
+    .pathway-ultimate-text{
+      font-size: 14px;
+    }
+
+    .pathway-title{
+      margin-left: 5%;
+    }
   }
