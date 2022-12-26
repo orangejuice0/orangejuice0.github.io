@@ -169,6 +169,22 @@ li {
     vertical-align: middle;
   }
 
+  .pathway-tree-arcane-weaponry{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 1050px;
+    vertical-align: middle;
+  }
+
+  .pathway-tree-bladed-weapons{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 550px;
+    vertical-align: middle;
+  }
+
   .pathway-tree-content{
     border: 2px solid #000000;
     border-radius: 5px;
@@ -234,6 +250,16 @@ li {
     }
 
     .pathway-tree-alchemy{
+      width: 90%;
+      height: auto;
+    }
+
+    .pathway-tree-bladed-weapons{
+      width: 90%;
+      height: auto;
+    }
+
+    .pathway-tree-arcane-weaponry{
       width: 90%;
       height: auto;
     }
