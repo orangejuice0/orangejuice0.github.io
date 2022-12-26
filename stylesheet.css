@@ -265,14 +265,14 @@ li {
 
     .page{
       display: inline-block;
-      margin-top: 300px;
+      margin-top: 400px;
     }
 
     .nav{
       position: absolute;
       padding: 10px;
       width: 100%;
-      height: 300px;
+      height: 350px;
     }
 
     .nav h1,h2{
@@ -285,8 +285,13 @@ li {
       padding: 0%;
     }
 
-    .pathway-tree-alchemy{
-      width: 100%;
+    .nav .link{
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .pathway-ultimate-text{
+      font-size: 12px;
     }
 
     
