@@ -4,6 +4,7 @@
 <head>
     <title>Ellumia | Home</title>
     <link href="stylesheet.css" rel="stylesheet">
+    <script src="dom.js" defer></script>
 </head>
 
 <body>
@@ -29,58 +30,85 @@
 
             <section class="pathway-option-list">
                 <div class="div-table">
-                    <div class="div-table-row">
-                        <a class="div-table-col" href="alchemy.html">
-                            <img class="pathway-option-icon" src="icons/pathways-options/alchemy.png" alt="Alchemy">
-                            <p class="pathway-option-text">Alchemy</p>
-                        </a>
-                        <a class="div-table-col" href="">
-                            <img class="pathway-option-icon" src="icons/pathways-options/arcane-weaponry.png" alt="Arcane Weaponry">
-                            <p class="pathway-option-text">Arcane Weaponry</p>
-                        </a>
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/bladed-weapons.png" alt="Bladed Weapons">
-                            <p class="pathway-option-text">Bladed Weapons</p></a>
-                    </div>
-                    <div class="div-table-row">
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/blunt-weapons.png" alt="Blunt Weapons">
-                            <p class="pathway-option-text">Blunt Weapons</p></a>
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/brawling.png" alt="Brawling">
-                            <p class="pathway-option-text">Brawling</p></a>
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/deception.png" alt="Deception">
-                            <p class="pathway-option-text">Deception</p></a>
-                    </div>
-                    <div class="div-table-row">
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/magical-resistance.png" alt="Magical Resistance">
-                            <p class="pathway-option-text">Magical Resistance</p></a>
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/movement.png" alt="Movement">
-                            <p class="pathway-option-text">Movement</p></a>
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/performance.png" alt="Performance">
-                            <p class="pathway-option-text">Performance</p></a>
-                    </div>
-                    <div class="div-table-row">
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/persuasion.png" alt="Persuasion">
-                            <p class="pathway-option-text">Persuasion</p></a>
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/physical-resistance.png" alt="Physical Resistance">
-                            <p class="pathway-option-text">Physical Resistance</p></a>
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/piety.png" alt="Piety">
-                            <p class="pathway-option-text">Piety</p></a>
-                    </div>
-                    <div class="div-table-row">
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/psychological-resistance.png" alt="Psychological Resistance">
-                            <p class="pathway-option-text">Psychological Resistance</p></a>
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/pure-arcane.png" alt="Pure Arcane">
-                            <p class="pathway-option-text">Pure Arcane</p></a>
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/ranged-weapons.png" alt="Ranged Weapons">
-                            <p class="pathway-option-text">Ranged Weaponry</p></a>
-                    </div>
-                    <div class="div-table-row">
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/runecrafting.png" alt="Runecrafting">
-                            <p class="pathway-option-text">Runecrafting</p></a>
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/stealth.png" alt="Stealth">
-                            <p class="pathway-option-text">Stealth</p></a>
-                        <a class="div-table-col" href=""><img class="pathway-option-icon" src="icons/pathways-options/survival-nature.png" alt="survival and Nature">
-                            <p class="pathway-option-text">Survival & Nature</p></a>
-                    </div>
+                    <a class="div-table-col" href="alchemy.html">
+                        <img class="pathway-option-icon" src="icons/pathways-options/alchemy.png" alt="Alchemy">
+                        <p class="pathway-option-text">Alchemy</p>
+                    </a>
+                    <a class="div-table-col" href="">
+                        <img class="pathway-option-icon" src="icons/pathways-options/arcane-weaponry.png"
+                            alt="Arcane Weaponry">
+                        <p class="pathway-option-text">Arcane Weaponry</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/bladed-weapons.png" alt="Bladed Weapons">
+                        <p class="pathway-option-text">Bladed Weapons</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/blunt-weapons.png" alt="Blunt Weapons">
+                        <p class="pathway-option-text">Blunt Weapons</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/brawling.png" alt="Brawling">
+                        <p class="pathway-option-text">Brawling</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/deception.png" alt="Deception">
+                        <p class="pathway-option-text">Deception</p>
+                    </a>
+
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/magical-resistance.png" alt="Magical Resistance">
+                        <p class="pathway-option-text">Magical Resistance</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/movement.png" alt="Movement">
+                        <p class="pathway-option-text">Movement</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/performance.png" alt="Performance">
+                        <p class="pathway-option-text">Performance</p>
+                    </a>
+
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/persuasion.png" alt="Persuasion">
+                        <p class="pathway-option-text">Persuasion</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/physical-resistance.png" alt="Physical Resistance">
+                        <p class="pathway-option-text">Physical Resistance</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/piety.png" alt="Piety">
+                        <p class="pathway-option-text">Piety</p>
+                    </a>
+
+
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/psychological-resistance.png" alt="Psychological Resistance">
+                        <p class="pathway-option-text">Psychological Resistance</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/pure-arcane.png" alt="Pure Arcane">
+                        <p class="pathway-option-text">Pure Arcane</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/ranged-weapons.png" alt="Ranged Weapons">
+                        <p class="pathway-option-text">Ranged Weaponry</p>
+                    </a>
+
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/runecrafting.png" alt="Runecrafting">
+                        <p class="pathway-option-text">Runecrafting</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/stealth.png" alt="Stealth">
+                        <p class="pathway-option-text">Stealth</p>
+                    </a>
+                    <a class="div-table-col" href=""><img class="pathway-option-icon"
+                            src="icons/pathways-options/survival-nature.png" alt="survival and Nature">
+                        <p class="pathway-option-text">Survival & Nature</p>
+                    </a>
+
 
                 </div>
             </section>
