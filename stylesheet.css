@@ -260,4 +260,8 @@ li {
     .pathway-title{
       margin-left: 5%;
     }
+
+    .nav{
+      display: none;
+    }
   }
