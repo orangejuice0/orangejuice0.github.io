@@ -17,7 +17,7 @@ body {
 
 .nav {
     top: 0;
-    height: 100%;
+    height: 100vh;
     width: 250px;
     background-color: var(--nav-main-color);
     flex-shrink: 0;
@@ -299,7 +299,7 @@ li {
     text-align: center;
   }
 
-  .gods-old h1{
+  .gods-content h1{
     text-decoration: underline;
   }
 
@@ -406,28 +406,28 @@ li {
       display: none;
     }
 
-    .gods-old{
+    .gods-content{
       display: flex;
       flex-wrap: wrap;
     }
 
-    .gods-old h1{
+    .gods-content h1{
       width: 100%;
       text-align: center;
     }
 
-    .gods-old h2{
+    .gods-content h2{
       width: auto;
       margin-right: 5%;
       vertical-align: middle;
     }
-    .gods-old h3{
+    .gods-content h3{
       margin-left: 5%;
       width: auto;
       vertical-align: bottom;
     }
 
-    .gods-old p{
+    .gods-content p{
       width: 90%;
     }
 
