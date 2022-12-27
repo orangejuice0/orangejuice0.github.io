@@ -17,7 +17,7 @@ body {
 
 .nav {
     top: 0;
-    height: 100vh;
+    height: 100%;
     width: 250px;
     background-color: var(--nav-main-color);
     flex-shrink: 0;
@@ -25,6 +25,40 @@ body {
     margin: 0;
     position: -webkit-sticky;
     position: sticky;
+}
+
+.gods-nav{
+  display: none;
+}
+
+.gods-nav-display{
+  background-color: var(--nav-secondary-color);
+  width: 250px;
+  height: 120px;
+  margin-top: 245px;
+  flex-shrink: 0;
+  float: left;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.gods-nav-display a{
+    margin-left: 0;
+    display: block;
+    width: auto;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px 20px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.gods-nav-display a:hover{
+  color: var(--text-color);
+}
+
+.gods-nav-display a:visited{
+  color: var(--text-color);
 }
 
 
@@ -88,6 +122,7 @@ body {
     :root {
         --background-color: #222222;
         --nav-main-color: #000000;
+        --nav-secondary-color: #111111;
         --text-color: #FFFFFF;
         --hover-color: #2a2a2a;
         --invert-pct: 1;
@@ -148,7 +183,6 @@ li {
 
   a:link{
     text-decoration: none;
-    color: black;
   }
 
   a:visited{
@@ -197,6 +231,13 @@ li {
     margin-left: 5%;
     margin-right: 5%;
     height: 750px;
+    vertical-align: middle;
+  }
+  .pathway-tree-movement{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 650px;
     vertical-align: middle;
   }
 
@@ -258,10 +299,15 @@ li {
     text-align: center;
   }
 
+  .gods-old h1{
+    text-decoration: underline;
+  }
+
   @media all and (max-width: 1700px) {
     .content{
       display: block;
       flex-wrap: nowrap;
+      height: auto;
     }
 
     .pathway-tree-alchemy{
@@ -271,6 +317,18 @@ li {
 
     .pathway-tree-brawling{
       width: 90%;
+      height: auto;
+    }
+
+    .pathway-tree-movement{
+      width: 90%;
+      height: auto;
+    }
+
+    .pathway-tree-content{
+      border: 2px solid #000000;
+      border-radius: 5px;
+      width: 100%;
       height: auto;
     }
 
@@ -314,9 +372,19 @@ li {
 
   @media all and (max-width: 1000px) {
 
+    body{
+      display: inline-block;
+    }
+
     .page{
       display: inline-block;
       margin-top: 400px;
+    }
+
+    .gods-nav-display{
+      margin-top: 370px;
+      margin-left: 0px;
+      width: 100%;
     }
 
     .nav{
@@ -326,8 +394,37 @@ li {
       height: 350px;
     }
 
-    .nav h1,h2{
+    .nav h1{
       display: none;
+    }
+
+    .nav h2{
+      display: none;
+    }
+
+    .gods-old{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .gods-old h1{
+      width: 100%;
+      text-align: center;
+    }
+
+    .gods-old h2{
+      width: auto;
+      margin-right: 5%;
+      vertical-align: middle;
+    }
+    .gods-old h3{
+      margin-left: 5%;
+      width: auto;
+      vertical-align: bottom;
+    }
+
+    .gods-old p{
+      width: 90%;
     }
 
     .div-table{
