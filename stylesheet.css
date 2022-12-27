@@ -181,7 +181,22 @@ li {
     width: 20%;
     margin-left: 5%;
     margin-right: 5%;
-    height: 550px;
+    height: 600px;
+    vertical-align: middle;
+  }
+
+  .pathway-tree-blunt-weapons{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 650px;
+    vertical-align: middle;
+  }
+  .pathway-tree-brawling{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 750px;
     vertical-align: middle;
   }
 
@@ -209,7 +224,7 @@ li {
     width: 90%;
     border: 2px solid #000000;
     border-radius: 5px;
-    margin-top: 2%;
+    margin-top: 5%;
   }
 
   .pathway-ultimate-bold{
@@ -254,7 +269,17 @@ li {
       height: auto;
     }
 
+    .pathway-tree-brawling{
+      width: 90%;
+      height: auto;
+    }
+
     .pathway-tree-bladed-weapons{
+      width: 90%;
+      height: auto;
+    }
+
+    .pathway-tree-blunt-weapons{
       width: 90%;
       height: auto;
     }
