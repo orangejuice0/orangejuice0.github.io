@@ -372,6 +372,10 @@ li {
 
   @media all and (max-width: 1000px) {
 
+    a:link{
+      color: var (--text-color);
+    }
+
     body{
       display: inline-block;
     }
