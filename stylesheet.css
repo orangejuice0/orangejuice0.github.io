@@ -31,6 +31,10 @@ body {
   display: none;
 }
 
+.weapons-content{
+  width: 100%;
+}
+
 .gods-nav-display{
   background-color: var(--nav-secondary-color);
   width: 250px;
