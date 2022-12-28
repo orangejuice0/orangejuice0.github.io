@@ -231,6 +231,14 @@ li {
     vertical-align: middle;
   }
 
+  .pathway-tree-ranged-weapons{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 650px;
+    vertical-align: middle;
+  }
+
   .pathway-tree-blunt-weapons{
     width: 20%;
     margin-left: 5%;
@@ -350,6 +358,11 @@ li {
     }
 
     .pathway-tree-bladed-weapons{
+      width: 90%;
+      height: auto;
+    }
+
+    .pathway-tree-ranged-weapons{
       width: 90%;
       height: auto;
     }
