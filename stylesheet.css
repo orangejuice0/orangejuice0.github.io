@@ -222,6 +222,22 @@ li {
     vertical-align: middle;
   }
 
+  .pathway-tree-stealth{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 850px;
+    vertical-align: middle;
+  }
+
+  .pathway-tree-nature-survival{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 950px;
+    vertical-align: middle;
+  }
+
   .pathway-tree-arcane-weaponry{
     width: 20%;
     margin-left: 5%;
@@ -353,6 +369,16 @@ li {
     }
 
     .pathway-tree-performance{
+      width: 90%;
+      height: auto;
+    }
+
+    .pathway-tree-nature-survival{
+      width: 90%;
+      height: auto;
+    }
+
+    .pathway-tree-stealth{
       width: 90%;
       height: auto;
     }
