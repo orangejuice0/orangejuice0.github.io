@@ -207,6 +207,14 @@ li {
     vertical-align: middle;
   }
 
+  .pathway-tree-performance{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 1050px;
+    vertical-align: middle;
+  }
+
   .pathway-tree-arcane-weaponry{
     width: 20%;
     margin-left: 5%;
@@ -325,6 +333,11 @@ li {
     }
 
     .pathway-tree-movement{
+      width: 90%;
+      height: auto;
+    }
+
+    .pathway-tree-performance{
       width: 90%;
       height: auto;
     }
